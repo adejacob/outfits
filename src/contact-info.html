@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OUTFITS</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+    <link href="img/CC.jpg" rel="icon">
+</head>
+<body id="home" class="">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/outfit_logo.png" width="50" height="50" alt="">
+                <h5 class="d-inline align-middle">OutFit</h5>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navCode">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navCode">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="why.html" class="nav-link">Why Outfit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <header id="page-header1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <!-- <h1>Contact Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, saepe.</p> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center bg-success">
+          <div class="card p-4 bg-light">
+              <div class="card-body text-success">
+                    <i class="fa fa-phone"></i><h3 class="text-center">Enter Your Contact Information </h3> 
+                  <hr>
+                  <form action="contact-info.php" method="POST">
+                          <div class="row">
+                       <div class="col-md-3">
+                           <div class="form-group">
+                               <input type="text" name="firstname" class="form-control"  required="required"  placeholder= "First Name">
+                           </div>
+                       </div>
+                       <div class="col-md-3">
+                           <div class="form-group">
+                              </i> <input type="text" name="lastname" class="form-control" required="required" placeholder="Last Name">
+                           </div>
+                       </div>
+                       <div class="col-md-3">
+                           <div class="form-group">
+                               <input type="email" name="email" class="form-control" required="required" placeholder="Enter Email">
+                           </div>
+                       </div>
+                       <br>
+                       <br>
+                       <br>
+                       <br>
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <input type="email" name="c_email" class="form-control" required="required" placeholder="Confirm Email">
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="tel" name="phone" class="form-control" required="required" placeholder="Enter Phone Number">
+                            </div>
+                        </div>
+                        <br>
+                       <br>
+                       <br>
+                       <br>
+                        <div class="col-md-3">
+                                <div class="form-group">
+                                    <input type="text" name="c_t" class="form-control" required="required" placeholder="Enter City or Town">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                    <div class="form-group">
+                                        <input type="text" name="s_p" class="form-control" required="required" placeholder="Enter State or Province">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                        <div class="form-group">
+                                            <input type="text" name="country" class="form-control" required="required" placeholder="Enter Country">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                            <div class="form-group">
+                                                <input type="text" name="lang" class="form-control" required="required" placeholder="Enter Language">
+                                            </div>
+                                        </div>
+                                        <br>
+                       <br>
+                       <br>
+
+                            
+                   </div>
+                   <hr>
+                   <div class="row">
+                       <div class="col-md-6">
+                            <p class="lead">How did you hear about Outfit products?</p>
+                            <hr>
+                            <div class="form-group">
+                                 <input type="text" name="opt" class="form-control" required="required" placeholder="Enter Option">
+                            </div>
+                       </div>
+                       <div class="col-md-6">
+                            <p class="lead">Which Outfit Products are you interested in?</p>
+                            <hr>
+                            <div class="form-group">
+                                 <input type="checkbox" name="nutritionals" value="Nutritionals"> Nutritionals <input type="checkbox" name="weight_Management" value="Weight Management"> Weight Management <input type="checkbox" name="skin_care" value="Skin Care"> Skin Care
+                            </div>
+                       </div>
+                        </div>
+                        <hr>
+                        <p class="lead">By submitting this form I acknowledge that I have read the
+                             Terms of Use and Privacy Policy and I grant permission
+                             for Outfit International and/or a Outfit International Associate to contact me.</p>
+                        <input type="submit" value="submit" name="submit" class="btn btn-outline-success btn-block">
+                   </div>  
+                    </form>
+                  
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <header id="page-header1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 m-auto text-center">
+              <!-- <h1>Contact Us</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, saepe.</p> -->
+            </div>
+          </div>
+        </div>
+      </header>
+  
+  
+
+
+  <!-- FOOTER -->
+
+<footer id="main-footer" class="text-center bg-success p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead">Copyright 2018 &copy; OUTFITSYSTEMS | ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

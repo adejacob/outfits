@@ -1,0 +1,222 @@
+/**,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+html, body, .scroller {
+}
+/*
+.scroller {
+	overflow-y: scroll;
+}*/
+/*
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.scroller,
+.scroller-inner {
+	position: relative;
+}
+
+.menu-trigger {
+	color: #fff;
+	padding-left: 60px;
+	font-size: 1rem;
+	position: relative;
+	top: -0.125rem;
+	right: 0;
+	margin-right: 2rem;
+}
+
+.menu-trigger:before {
+	color: #fff;
+	font-family: 'icomoon', serif;
+	content: '\e6b7';
+}
+
+.menu-trigger p:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ .mp-level > ul > li > a {
+	color: #fff;
+}
+.mp-level > ul > li > a.active {
+	color: #fff;
+}
+.mp-menu h2.active {
+	color: red;
+}*/
+
+/* Search icon by IcoMoon, made with http://icomoon.io/app/ */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/icomoon.woff') format('woff'),
+	url('../fonts/icomoon.ttf') format('truetype'),
+	url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+.sb-search {
+	position: relative;
+	margin-top: 2px;
+	margin-right: 3rem;
+	margin-bottom: 2px;
+	width: 11rem;
+	min-width: 20px;
+	height: 22px;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: hidden;
+	outline: none;
+	background: #fff;
+	width: calc(100% - 1rem);
+	height: 20px;
+	margin: 0;
+	/*z-index: 10;*/
+	padding: 0 0 0 10px;
+	border-radius: 0.5rem;
+	font-family: "Arial",Verdana,Tahoma;
+	font-size: 16px;
+	color: #2c3e50;
+	box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,0.5);
+	color: rgba(4, 126, 149, 0.5);
+	padding-top:2px;
+}
+
+/*.sb-search-input::-webkit-input-placeholder {
+	color: rgba(4, 126, 149, 0.5);
+	margin-top: 2px;
+	padding-left:10px;
+	padding-top:2px;
+}
+
+.sb-search-input:-moz-placeholder {
+	color: rgba(4, 126, 149, 0.5);
+	margin-top: 2px;
+	padding-left:10px;
+	padding-top:2px;
+}
+
+.sb-search-input::-moz-placeholder {
+	color: rgba(4, 126, 149, 0.5);
+	margin-top: 2px;
+	padding-left:10px;
+	padding-top:2px;
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: rgba(4, 126, 149, 0.5);
+	margin-top: 2px;
+	padding-left:10px;
+	padding-top:2px;
+}*/
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 22px;
+	height: 22px;
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+	filter: alpha(opacity=0); /* IE 5-7 */
+	opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	color: #008AAB;
+	background: transparent/*#047E95*/;
+	/*z-index: 90*/
+	font-size: 16px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+	content: "\f02e";
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+	margin-left: -0.25rem;
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 12rem;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	background: transparent;/*#047E95;*/
+	color: #008AAB;
+	z-index: 50;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
+.menu-trigger {
+    color: #fff;
+    padding-left: 60px;
+    font-size: 1rem;
+    position: relative;
+    top: -0.125rem;
+    right: 0;
+    margin-right: 2rem;
+}
+
+.menu-trigger:before {
+    color: #fff;
+    font-family: 'icomoon', serif;
+    content: '\e6b7';
+}
+
+.menu-trigger p:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

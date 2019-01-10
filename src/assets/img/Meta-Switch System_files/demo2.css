@@ -1,0 +1,419 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+@font-face {
+	font-family: 'linecons';
+	src:url('../fonts/linecons/linecons.eot');
+	src:url('../fonts/linecons/linecons.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/linecons/linecons.woff') format('woff'),
+	url('../fonts/linecons/linecons.ttf') format('truetype'),
+	url('../fonts/linecons/linecons.svg#linecons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?g7xhx2');
+	src: url('../fonts/icomoon.eot?#iefixg7xhx2') format('embedded-opentype'),
+	url('../fonts/icomoon.woff?g7xhx2') format('woff'),
+	url('../fonts/icomoon.ttf?g7xhx2') format('truetype'),
+	url('../fonts/icomoon.svg?g7xhx2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+.icon:before {
+	font-family: 'icomoon';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+    float: right;
+	line-height: 1.5;
+	display: inline-block;
+	margin-right: 0.25rem;
+	-webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/************** Imported fromm icons.css for codrops mobile nav **************/
+
+.icon-female:before {
+	content: "\f182";
+}
+.icon-male:before {
+	content: "\f183";
+}
+.icon-arrow-left:before {
+	content: "\f149";
+}
+.icon-arrow-left-2:before {
+	content: "\e034";
+}
+.icon-arrow-left-3:before {
+	content: "\e036";
+}
+.icon-arrow-left-4:before {
+	content: "\e038";
+}
+.icon-arrow-right:before {
+	content: "\e035";
+}
+.icon-arrow-right-2:before {
+	content: "\e037";
+}
+.icon-arrow-right-3:before {
+	content: "\e039";
+}
+.icon-arrow-right-4:before {
+	content: "\e033";
+}
+
+.icon-phone:before {
+	content: "\e000";
+}
+.icon-news:before {
+	content: "\e001";
+}
+.icon-photo:before {
+	content: "\e002";
+}
+.icon-shop:before {
+	content: "\e003";
+}
+.icon-wallet:before {
+	content: "\e004";
+}
+.icon-t-shirt:before {
+	content: "\e005";
+}
+.icon-heart:before {
+	content: "\e006";
+}
+.icon-cloud:before {
+	content: "\e007";
+}
+.icon-display:before {
+	content: "\e008";
+}
+.icon-diamond:before {
+	content: "\e009";
+}
+.icon-banknote:before {
+	content: "\e00a";
+}
+.icon-data:before {
+	content: "\e00b";
+}
+.icon-music:before {
+	content: "\e00c";
+}
+.icon-location:before {
+	content: "\e00d";
+}
+.icon-star:before {
+	content: "\e00e";
+}
+.icon-tv:before {
+	content: "\eabe";
+}
+.icon-eye:before {
+	content: "\e010";
+}
+.icon-megaphone:before {
+	content: "\e011";
+}
+.icon-study:before {
+	content: "\e012";
+}
+.icon-bubble:before {
+	content: "\e013";
+}
+.icon-sound:before {
+	content: "\f120";
+}
+.icon-video:before {
+	content: "\e613";
+}
+.icon-stack:before {
+	content: "\e016";
+}
+.icon-lab:before {
+	content: "\e017";
+}
+.icon-food:before {
+	content: "\e018";
+}
+.icon-cup:before {
+	content: "\e019";
+}
+.icon-trash:before {
+	content: "\e01a";
+}
+.icon-user:before {
+	content: "\e01b";
+}
+.icon-key:before {
+	content: "\e01c";
+}
+.icon-fire:before {
+	content: "\e01d";
+}
+.icon-clip:before {
+	content: "\e01e";
+}
+.icon-mail:before {
+	content: "\e01f";
+}
+.icon-search:before {
+	content: "\e020";
+}
+.icon-settings:before {
+	content: "\e021";
+}
+.icon-like:before {
+	content: "\e022";
+}
+.icon-calendar:before {
+	content: "\e023";
+}
+.icon-camera:before {
+	content: "\e024";
+}
+.icon-tag:before {
+	content: "\e025";
+}
+.icon-note:before {
+	content: "\e026";
+}
+.icon-clock:before {
+	content: "\e027";
+}
+.icon-lock:before {
+	content: "\e028";
+}
+.icon-vynil:before {
+	content: "\e029";
+}
+.icon-truck:before {
+	content: "\e02a";
+}
+.icon-paperplane:before {
+	content: "\e02b";
+}
+.icon-bulb:before {
+	content: "\e02c";
+}
+.icon-pen:before {
+    content: "\e959";
+}
+.icon-params:before {
+	content: "\e02e";
+}
+.icon-world:before {
+	content: "\e02f";
+}
+
+/*** End import from icons.css ***/
+/*** Start Custom Icon Classes ***/
+.icon-home:before {
+	content: "\f08d";
+}
+.icon-max:before {
+	content: "\f2dd";
+	/*font-size: 1rem;*/
+	/*margin: -0.5rem 0.25rem 0 -0.25rem;*/
+}
+
+.logo-fa.icon-max:before {
+    font-size: 1.5em;
+    top: 1rem;
+    position: relative;
+}
+
+.logo .icon-max:before {
+    content: "\f2dd";
+    font-size: 42px;
+    /*font-size: 1rem;*/
+    /*margin: -0.5rem 0.25rem 0 -0.25rem;*/
+}
+.shrink .logo .icon-max:before {
+    content: "\f2dd";
+    font-size: 21px;
+    /*font-size: 1rem;*/
+    /*margin: -0.5rem 0.25rem 0 -0.25rem;*/
+}
+/* 1st level nav */
+.icon-products:before {
+	content: "\e909";
+}
+.icon-purpose:before {
+	content: "\e7dc";
+}
+.icon-promise:before {
+	content: "\e6d1";
+}
+.icon-proof:before {
+	content: "\e829";
+}
+/* 2nd level nav */
+/* Products nav */
+.icon-nutritionals:before {
+	content: "\e941";
+}
+.icon-metaSwitch:before {
+	content: "\f2e9";
+}
+.icon-skinCare:before {
+	content: "\f2ea";
+}
+/* Purpose nav */
+.icon-health:before {
+	content: "";
+}
+.icon-wealth:before {
+	content: "";
+}
+.icon-qualityOfLife:before {
+	content: "";
+}
+/* Promise nav */
+.icon-drugFree:before {
+	content: "";
+}
+.icon-glutenFree:before {
+	content: "";
+}
+.icon-madeInUSA:before {
+	content: "";
+}
+	/* Proof nav */
+.icon-patents:before {
+	content: "";
+}
+.icon-science:before {
+	content: "\eb14";
+}
+.icon-testimonials:before {
+	content:  "\e829";
+}
+/* 3rd level - Products */
+	/* Nutritionals nav */
+.icon-cellgevity:before {
+	content: "\f2e4";
+}
+.icon-maxATP:before {
+	content: "\f2e5";
+}
+.icon-maxNFuze:before {
+	content: "\f2e7";
+}
+.icon-maxGXL:before {
+	content: "\f2e6";
+}
+.icon-maxOne:before {
+	content: "\f2e8";
+}
+.icon-nutritionalsTestimonials:before {
+	content: "\e829";
+}
+	/* Weight Loss nav */
+.icon-curb:before {
+	content: "\f2e9";
+}
+.icon-switch:before {
+	content: "\f2e9";
+}
+.icon-metaSwitchTestimonials:before {
+	content: "\e829";
+}
+	/* Skin Care Nav */
+.icon-oneMinuteWonder:before {
+    content: "\f2ea";
+}
+.icon-facialSerum:before {
+    content: "\f2ea";
+}
+.icon-soothingMoisturizer:before {
+    content: "\f2ea";
+}
+.icon-purifyingCleanser:before {
+    content: "\f2ea";
+}
+
+.icon-research:before {
+	content: "\e905";
+}
+.icon-company:before {
+    content: "\f1a1";
+}
+
+.icon-new:before {
+	content: "\e8f0";
+}
+.icon-login:before {
+    content: "\eb2d";
+}
+.icon-glutathione:before {
+	content: "\e915";
+}
+
+.icon-mgb:before {
+    content: "\f2eb";
+    font-size: 2em;
+    top: 0.25rem;
+    position: relative;
+}
+
+.icon-flame:before {
+    content: "\f0d2";
+    font-size: 1em;
+    top: 1.5rem;
+    position: relative;
+}
+/* 3rd level - Purpose */
+	/* Health nav */
+
+	/* Wealth nav */
+
+	/* Quality of Life nav */
+
+/* 3rd level - Promise */
+
+/* 3rd level - Proof */

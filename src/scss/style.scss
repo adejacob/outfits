@@ -1,0 +1,270 @@
+
+$icoon-size:55px;
+$dark-overlay:rgba(0,0,0,0.5);
+$dark-overlays: rgba(223, 219, 219, 0.4);
+$icon-size: 30px;
+
+body{
+    overflow-x: hidden;
+    
+    
+}
+.navbar {
+
+
+    .nav-link{
+        font-size: 14px;
+        text-transform: uppercase;
+        padding-left: 1em !important;
+        padding-left: 1em !important;
+    }
+    .nav-item.active{
+        border-left: #fff 3px solid;
+    }
+}
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background: url(../img/1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.carousel-image-2{
+    background: url(../img/c1.png);
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url(../img/3.jpg);
+    background-size: cover;
+}
+.carousel-image-4{
+    background: url(../img/MaxATP_Box.png);
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+.carousel-image-5{
+    background: url(../img/max357-parallax-1.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+.carousel-image-6{
+    background: url(../img/cellgevity-banner-en.jpg);
+    background-size: cover;
+}
+.fa{
+    font-size: $icoon-size;
+}
+#home-header{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/parallax-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    background-size: 100% 100%;
+
+}
+
+.dark-overlay{
+    position: absolute;
+    background-color: $dark-overlay;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+#video-play1{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+}
+#video-play{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+}
+#video-plays{
+    position: relative;
+    min-height: 300px;
+    background: url(../img/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+}
+
+footer#main-footer{
+
+    color: #fff;
+}
+
+#page-header{
+    height: 400px;
+    background: url(../img/opportunity-bottom-banner-2000wide.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+    background-size: 150% 150%;
+    background-repeat: no-repeat;
+}
+
+#page-header1{
+    height: 400px;
+    background: url(../img/opportunity-bottom-banner-2000wide.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+    background-size: 150% 150%;
+    background-repeat: no-repeat;
+}
+
+
+#about{
+    img{
+        margin-top: -50px;
+    }
+}
+#faq{
+    .card{
+        border: rgb(31, 28, 28);
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+     .card-header{
+        background: rgb(40, 134, 45);
+
+    }
+    .card-body{
+        background: rgb(40, 134, 45);
+    }
+}
+#home-icon{
+    background: lightgray;
+    
+}
+#info{
+    background: url(../img/max_hero-image-2.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    
+}
+
+#home-section{
+    background: url('../img/opportunity-bottom-banner-2000wide.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+
+    .dark-overlay{
+        background-color: $dark-overlays;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+}
+
+#explore-section{
+    .fa{
+        color: #fff;
+        background: rgb(20, 150, 37);
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+#max-header{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/max357-parallax-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+#max-header2{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/max357-parallax-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+#max-header3{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/kayak-lady.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+#max-header4{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/happy-people.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+#max-header5{
+    position: relative;
+    min-height: 400px;
+    background: url(../img/running-guy.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}

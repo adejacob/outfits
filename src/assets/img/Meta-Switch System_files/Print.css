@@ -1,0 +1,207 @@
+@media print {
+    .header_in-right {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+        margin: 0px auto;
+        width: 227px;
+        position: static;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .blue-bar-in h3 {
+        padding: 4px 0 4px 0px;
+        text-align: right;
+    }
+
+    .modules {
+        padding: 0px;
+    }
+
+    .modules_nav ul li a {
+        display: none;
+    }
+
+    .modules_nav {
+        width: 1200px;
+        display: block;
+        margin: 0px 0 0 150px;
+    }
+
+    .our_purpose {
+        border: none !important;
+    }
+
+    /*----inner1 -------*/
+    .inner1_content {
+        padding: 20px 0 0px 0;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .form_section {
+        padding: 27px 0 41px 0;
+    }
+
+    .posts {
+        margin: 20px 0 0 0;
+        padding: 0 0 0px 0;
+    }
+
+    .posts ul li a {
+        display: none;
+    }
+
+    /*----inner2 -------*/
+    .inner3_banner {
+        display: none;
+    }
+
+    .inner3_img {
+        display: none;
+    }
+
+    .inner3_img2 {
+        display: none;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .max_atp-right {
+        border: none;
+    }
+
+    .blue2-bar-in {
+        margin: 10px auto 0;
+    }
+
+    .blue2-bar-in ul li span img {
+        display: none;
+    }
+
+    .max_atp-right_in_nav ul {
+        float: none;
+        display: block;
+    }
+
+    .max_atp-right_in_nav ul li {
+        float: none;
+        display: block;
+        height: 460px;
+    }
+
+    .max_atp-right_in_nav ul li a {
+        padding: 17px 0 17px 0px;
+    }
+
+    .tab1 {
+        position: absolute;
+        top: 170px;
+        right: -40px;
+    }
+
+    .tab1_nav ul li p {
+        padding: 14px 0 14px 0px;
+    }
+
+    .tab2 {
+        position: absolute;
+        top: 24%;
+        right: -40px;
+        display: block;
+    }
+
+    .tab2_right img {
+        margin: -15px 0 0 55%;
+    }
+
+    .tab3 {
+        position: absolute;
+        top: 41%;
+        right: -40px;
+        display: block;
+    }
+
+    .tab4 {
+        display: block;
+        height: 0px;
+    }
+
+    .father1 {
+        border: none;
+    }
+
+    /*----inner3 -------*/
+    .inner4_img {
+        display: none;
+    }
+
+    .international {
+        margin: 0px auto 0px;
+    }
+
+    .blue1-bar-in {
+        margin: 30px auto 0;
+    }
+
+    .blue1-bar-in ul li span img {
+        display: none;
+    }
+
+    /*----inner4 -------*/
+    .inner5_banner {
+        display: none;
+    }
+
+    .nutritionals {
+        padding: 0px 0 0 130px
+    }
+
+    .nutritionals-left-nav {
+        margin: 6px 0px 0 1px;
+    }
+
+    .products {
+        display: none;
+    }
+
+    .father {
+        border: none;
+        padding: 0px;
+    }
+
+    .father-in {
+        width: 800px;
+        margin: 0px 0 0 0;
+    }
+
+    .block1-left {
+        width: 900px;
+    }
+
+    .block1-right {
+        display: none;
+    }
+
+    .block2-left {
+        display: none;
+    }
+
+    .block2-right {
+        width: 800px;
+    }
+
+}
